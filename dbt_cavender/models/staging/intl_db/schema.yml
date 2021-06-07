@@ -4,7 +4,7 @@ models:
   - name: dbt_currencies
     description: currency data
     columns:
-      - name: CURRENCY_ID
+      - name: currency_id
         description: primary key
         tests:
           - unique

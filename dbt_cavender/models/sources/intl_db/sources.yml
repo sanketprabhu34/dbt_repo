@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: intl_db
-    database: INTL_DB
+    database: intl_db
     schema: public
     tables:
        - name: currencies
