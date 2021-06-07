@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: intl_db
+    database: INTL_DB
+    schema: public
+    tables:
+       - name: currencies
+
