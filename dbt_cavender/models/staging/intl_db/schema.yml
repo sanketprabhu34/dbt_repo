@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dbt_currencies
+    description: currency data
+    columns:
+      - name: CURRENCY_ID
+        description: primary key
+        tests:
+          - unique
+          - not_null
